@@ -57,6 +57,10 @@ nav {
     gap: 40px;
 }
 
+nav .links:hover {
+    color: var(--soft-red);
+}
+
 
 /* -------------------------------------------------------------------------- */
 /*                                    HERO                                    */
@@ -110,6 +114,10 @@ main .hero .desc-hero button {
     cursor: pointer;
 }
 
+main .hero .desc-hero button:hover {
+    background-color: var(--very-dark-blue);
+}
+
 /* ---------------------------------- ASIDE --------------------------------- */
 aside {
     background-color: var(--very-dark-blue);
@@ -124,10 +132,14 @@ aside h2 {
     margin-bottom: 16px;
 }
 
-aside .aside-content h3 {
+aside .aside-content .aside-links {
     font-size: 20px;
     font-weight: 800;
     margin-bottom: 12px;
+}
+
+aside .aside-content .aside-links:hover {
+    color: var(--soft-orange);
 }
 
 aside .aside-content p {
@@ -171,10 +183,14 @@ article .number-title {
     margin-bottom: 8px;
 }
 
-article h4 {
+article .article-links {
     color: var(--very-dark-blue);
     font-size: 18px;
     font-weight: 800;
     margin-bottom: 12px;
 
+}
+
+article .article-links:hover {
+    color: var(--soft-red);
 }
